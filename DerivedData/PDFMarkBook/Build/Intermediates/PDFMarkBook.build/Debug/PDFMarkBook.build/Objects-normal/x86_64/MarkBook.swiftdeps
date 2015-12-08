@@ -1,0 +1,48 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MarkBook"
+provides-nominal:
+- "C11PDFMarkBook8MarkBook"
+provides-member:
+- ["C11PDFMarkBook8MarkBook", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "MarkBook"
+- "String"
+- !private "StringLiteralType"
+- "NSURL"
+depends-member:
+- !private ["PSs9AnyObject", "_mark"]
+- !private ["PSs9AnyObject", "_url"]
+- ["PSs9AnyObject", ""]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- ["C11PDFMarkBook8MarkBook", "NSURL"]
+- ["C11PDFMarkBook8MarkBook", "String"]
+- !private ["C11PDFMarkBook8MarkBook", "_mark"]
+- !private ["C11PDFMarkBook8MarkBook", "_url"]
+- ["C11PDFMarkBook8MarkBook", "deinit"]
+- ["C11PDFMarkBook8MarkBook", "init"]
+- ["C11PDFMarkBook8MarkBook", "mark"]
+- ["C11PDFMarkBook8MarkBook", "url"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- ["PSs12_Reflectable", "Some"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs28CustomDebugStringConvertible"
+- "C11PDFMarkBook8MarkBook"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+interface-hash: "2217e09eb91424d9f4e8c104372c491a"

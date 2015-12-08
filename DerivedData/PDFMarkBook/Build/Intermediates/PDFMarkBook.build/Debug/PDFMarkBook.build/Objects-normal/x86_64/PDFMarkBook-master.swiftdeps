@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "5ae4fda35bfea482c7e2d746351e7cba"
+build_time: [502876052, 576591000]
+inputs:
+  "/Users/Matt/CompSci/cosc346/PDFMarkbook/PDFMarkBook/PDFMarkBook/AppDelegate.swift": !dirty [497484830, 0]
+  "/Users/Matt/CompSci/cosc346/PDFMarkbook/PDFMarkBook/PDFMarkBook/MarkBook.swift": [497767841, 0]
+  "/Users/Matt/CompSci/cosc346/PDFMarkbook/PDFMarkBook/PDFMarkBook/PDFModel.swift": !dirty [497767841, 0]

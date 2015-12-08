@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92C12CC1BBB8FD7003B0D9C /* MarkBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92C12CB1BBB8FD7003B0D9C /* MarkBook.swift */; };
+		C97A43B21BB3D4350049D297 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97A43B11BB3D4350049D297 /* Images.xcassets */; };
+		C97A43C11BB3D4350049D297 /* PDFMarkBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A43C01BB3D4350049D297 /* PDFMarkBookTests.swift */; };
+		C97A43CB1BB3D46B0049D297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A43CA1BB3D46B0049D297 /* AppDelegate.swift */; };
+		C97A43CD1BB3D4770049D297 /* PDFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A43CC1BB3D4770049D297 /* PDFModel.swift */; };
+		C97A43CF1BB3D48C0049D297 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C97A43CE1BB3D48C0049D297 /* MainMenu.xib */; };
+		C97A43D11BB3D4C70049D297 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97A43D01BB3D4C70049D297 /* Quartz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97A43BB1BB3D4350049D297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97A43A21BB3D4350049D297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97A43A91BB3D4350049D297;
+			remoteInfo = PDFMarkBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C92C12CB1BBB8FD7003B0D9C /* MarkBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkBook.swift; sourceTree = "<group>"; };
+		C97A43AA1BB3D4350049D297 /* PDFMarkBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFMarkBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97A43AE1BB3D4350049D297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97A43B11BB3D4350049D297 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C97A43BA1BB3D4350049D297 /* PDFMarkBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFMarkBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97A43BF1BB3D4350049D297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97A43C01BB3D4350049D297 /* PDFMarkBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFMarkBookTests.swift; sourceTree = "<group>"; };
+		C97A43CA1BB3D46B0049D297 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C97A43CC1BB3D4770049D297 /* PDFModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFModel.swift; sourceTree = "<group>"; };
+		C97A43CE1BB3D48C0049D297 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		C97A43D01BB3D4C70049D297 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97A43A71BB3D4350049D297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97A43D11BB3D4C70049D297 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97A43B71BB3D4350049D297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C97A43A11BB3D4350049D297 = {
+			isa = PBXGroup;
+			children = (
+				C97A43D01BB3D4C70049D297 /* Quartz.framework */,
+				C97A43AC1BB3D4350049D297 /* PDFMarkBook */,
+				C97A43BD1BB3D4350049D297 /* PDFMarkBookTests */,
+				C97A43AB1BB3D4350049D297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97A43AB1BB3D4350049D297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97A43AA1BB3D4350049D297 /* PDFMarkBook.app */,
+				C97A43BA1BB3D4350049D297 /* PDFMarkBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97A43AC1BB3D4350049D297 /* PDFMarkBook */ = {
+			isa = PBXGroup;
+			children = (
+				C97A43CA1BB3D46B0049D297 /* AppDelegate.swift */,
+				C97A43CC1BB3D4770049D297 /* PDFModel.swift */,
+				C92C12CB1BBB8FD7003B0D9C /* MarkBook.swift */,
+				C97A43CE1BB3D48C0049D297 /* MainMenu.xib */,
+				C97A43B11BB3D4350049D297 /* Images.xcassets */,
+				C97A43AD1BB3D4350049D297 /* Supporting Files */,
+			);
+			path = PDFMarkBook;
+			sourceTree = "<group>";
+		};
+		C97A43AD1BB3D4350049D297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97A43AE1BB3D4350049D297 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C97A43BD1BB3D4350049D297 /* PDFMarkBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97A43C01BB3D4350049D297 /* PDFMarkBookTests.swift */,
+				C97A43BE1BB3D4350049D297 /* Supporting Files */,
+			);
+			path = PDFMarkBookTests;
+			sourceTree = "<group>";
+		};
+		C97A43BE1BB3D4350049D297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97A43BF1BB3D4350049D297 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97A43A91BB3D4350049D297 /* PDFMarkBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97A43C41BB3D4350049D297 /* Build configuration list for PBXNativeTarget "PDFMarkBook" */;
+			buildPhases = (
+				C97A43A61BB3D4350049D297 /* Sources */,
+				C97A43A71BB3D4350049D297 /* Frameworks */,
+				C97A43A81BB3D4350049D297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFMarkBook;
+			productName = PDFMarkBook;
+			productReference = C97A43AA1BB3D4350049D297 /* PDFMarkBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C97A43B91BB3D4350049D297 /* PDFMarkBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97A43C71BB3D4350049D297 /* Build configuration list for PBXNativeTarget "PDFMarkBookTests" */;
+			buildPhases = (
+				C97A43B61BB3D4350049D297 /* Sources */,
+				C97A43B71BB3D4350049D297 /* Frameworks */,
+				C97A43B81BB3D4350049D297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97A43BC1BB3D4350049D297 /* PBXTargetDependency */,
+			);
+			name = PDFMarkBookTests;
+			productName = PDFMarkBookTests;
+			productReference = C97A43BA1BB3D4350049D297 /* PDFMarkBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97A43A21BB3D4350049D297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Niobium;
+				TargetAttributes = {
+					C97A43A91BB3D4350049D297 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C97A43B91BB3D4350049D297 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C97A43A91BB3D4350049D297;
+					};
+				};
+			};
+			buildConfigurationList = C97A43A51BB3D4350049D297 /* Build configuration list for PBXProject "PDFMarkBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C97A43A11BB3D4350049D297;
+			productRefGroup = C97A43AB1BB3D4350049D297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97A43A91BB3D4350049D297 /* PDFMarkBook */,
+				C97A43B91BB3D4350049D297 /* PDFMarkBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97A43A81BB3D4350049D297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97A43B21BB3D4350049D297 /* Images.xcassets in Resources */,
+				C97A43CF1BB3D48C0049D297 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97A43B81BB3D4350049D297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97A43A61BB3D4350049D297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97A43CD1BB3D4770049D297 /* PDFModel.swift in Sources */,
+				C97A43CB1BB3D46B0049D297 /* AppDelegate.swift in Sources */,
+				C92C12CC1BBB8FD7003B0D9C /* MarkBook.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97A43B61BB3D4350049D297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97A43C11BB3D4350049D297 /* PDFMarkBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C97A43BC1BB3D4350049D297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97A43A91BB3D4350049D297 /* PDFMarkBook */;
+			targetProxy = C97A43BB1BB3D4350049D297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C97A43C21BB3D4350049D297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C97A43C31BB3D4350049D297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C97A43C51BB3D4350049D297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PDFMarkBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C97A43C61BB3D4350049D297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PDFMarkBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C97A43C81BB3D4350049D297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PDFMarkBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFMarkBook.app/Contents/MacOS/PDFMarkBook";
+			};
+			name = Debug;
+		};
+		C97A43C91BB3D4350049D297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PDFMarkBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFMarkBook.app/Contents/MacOS/PDFMarkBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97A43A51BB3D4350049D297 /* Build configuration list for PBXProject "PDFMarkBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97A43C21BB3D4350049D297 /* Debug */,
+				C97A43C31BB3D4350049D297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97A43C41BB3D4350049D297 /* Build configuration list for PBXNativeTarget "PDFMarkBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97A43C51BB3D4350049D297 /* Debug */,
+				C97A43C61BB3D4350049D297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97A43C71BB3D4350049D297 /* Build configuration list for PBXNativeTarget "PDFMarkBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97A43C81BB3D4350049D297 /* Debug */,
+				C97A43C91BB3D4350049D297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C97A43A21BB3D4350049D297 /* Project object */;
+}

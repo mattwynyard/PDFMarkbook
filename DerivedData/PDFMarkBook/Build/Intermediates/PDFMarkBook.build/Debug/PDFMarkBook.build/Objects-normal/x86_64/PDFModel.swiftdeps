@@ -1,0 +1,818 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PDFModelDelegate"
+- "PDFModel"
+provides-nominal:
+- "P11PDFMarkBook16PDFModelDelegate"
+- "C11PDFMarkBook8PDFModel"
+provides-member:
+- ["P11PDFMarkBook16PDFModelDelegate", ""]
+- ["C11PDFMarkBook8PDFModel", ""]
+provides-dynamic-lookup:
+- "prevDocument"
+- "refArray"
+- "previousPage"
+- "destination"
+- "prevPage"
+- "goBack"
+- "pdfArray"
+- "goToPage"
+- "documentIndex"
+- "nextDocument"
+- "updatePage"
+- "getDirection"
+- "currentPage"
+- "currentDocument"
+- "updateDocument"
+- "nextPage"
+- "updateMark"
+- "titleArray"
+- "loadDocuments"
+- "pageHistory"
+- "writeFile"
+depends-top-level:
+- !private "NSUTF8StringEncoding"
+- "PDFModel"
+- "PDFDestination"
+- !private "+="
+- !private "NSSearchPathForDirectoriesInDomains"
+- !private "MarkBook"
+- "PDFDocument"
+- "Int"
+- !private "BooleanLiteralType"
+- "PDFPage"
+- !private "NSSearchPathDirectory"
+- !private "NSSearchPathDomainMask"
+- !private "=="
+- !private "||"
+- !private "-"
+- "String"
+- "NSMutableArray"
+- !private ">"
+- !private "UnicodeScalarType"
+- "Array"
+- !private "--"
+- !private "StringLiteralType"
+- "NSObject"
+- "PDFModelDelegate"
+- !private "<"
+- !private "++"
+depends-member:
+- ["PSs9AnyObject", "Element"]
+- !private ["PSs9AnyObject", "Generator"]
+- !private ["PSs9AnyObject", "NSSearchPathDirectory"]
+- !private ["PSs9AnyObject", "NSSearchPathDomainMask"]
+- !private ["PSs9AnyObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSs9AnyObject", "NSUTF8StringEncoding"]
+- !private ["PSs9AnyObject", "addObject"]
+- !private ["PSs9AnyObject", "count"]
+- ["PSs9AnyObject", "currentDocument"]
+- ["PSs9AnyObject", "currentPage"]
+- ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "destination"]
+- ["PSs9AnyObject", "documentIndex"]
+- ["PSs9AnyObject", "getDirection"]
+- ["PSs9AnyObject", "goBack"]
+- ["PSs9AnyObject", "goToPage"]
+- !private ["PSs9AnyObject", "indexForPage"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "loadDocuments"]
+- !private ["PSs9AnyObject", "mark"]
+- ["PSs9AnyObject", "nextDocument"]
+- ["PSs9AnyObject", "nextPage"]
+- !private ["PSs9AnyObject", "objectAtIndex"]
+- !private ["PSs9AnyObject", "pageAtIndex"]
+- !private ["PSs9AnyObject", "pageCount"]
+- ["PSs9AnyObject", "pageHistory"]
+- ["PSs9AnyObject", "pageIndex"]
+- ["PSs9AnyObject", "pdfArray"]
+- ["PSs9AnyObject", "prevDocument"]
+- ["PSs9AnyObject", "prevPage"]
+- ["PSs9AnyObject", "previousPage"]
+- ["PSs9AnyObject", "refArray"]
+- !private ["PSs9AnyObject", "stringByAppendingPathComponent"]
+- ["PSs9AnyObject", "titleArray"]
+- !private ["PSs9AnyObject", "toInt"]
+- ["PSs9AnyObject", "updateDocument"]
+- ["PSs9AnyObject", "updateMark"]
+- ["PSs9AnyObject", "updatePage"]
+- !private ["PSs9AnyObject", "url"]
+- ["PSs9AnyObject", "writeFile"]
+- !private ["PSs9AnyObject", "writeToFile"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["PSs23ArrayLiteralConvertible", "AllDomainsMask"]
+- ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "addObject"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "objectAtIndex"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- ["PSs11CVarArgType", "Element"]
+- !private ["PSs11CVarArgType", "Generator"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSSearchPathDirectory"]
+- !private ["PSs11CVarArgType", "NSSearchPathDomainMask"]
+- !private ["PSs11CVarArgType", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSs11CVarArgType", "NSUTF8StringEncoding"]
+- !private ["PSs11CVarArgType", "addObject"]
+- !private ["PSs11CVarArgType", "count"]
+- ["PSs11CVarArgType", "currentDocument"]
+- ["PSs11CVarArgType", "currentPage"]
+- ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "destination"]
+- ["PSs11CVarArgType", "documentIndex"]
+- ["PSs11CVarArgType", "getDirection"]
+- ["PSs11CVarArgType", "goBack"]
+- ["PSs11CVarArgType", "goToPage"]
+- !private ["PSs11CVarArgType", "indexForPage"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "loadDocuments"]
+- ["PSs11CVarArgType", "nextDocument"]
+- ["PSs11CVarArgType", "nextPage"]
+- !private ["PSs11CVarArgType", "objectAtIndex"]
+- !private ["PSs11CVarArgType", "pageAtIndex"]
+- !private ["PSs11CVarArgType", "pageCount"]
+- ["PSs11CVarArgType", "pageHistory"]
+- ["PSs11CVarArgType", "pageIndex"]
+- ["PSs11CVarArgType", "pdfArray"]
+- ["PSs11CVarArgType", "prevDocument"]
+- ["PSs11CVarArgType", "prevPage"]
+- ["PSs11CVarArgType", "previousPage"]
+- ["PSs11CVarArgType", "refArray"]
+- !private ["PSs11CVarArgType", "stringByAppendingPathComponent"]
+- ["PSs11CVarArgType", "titleArray"]
+- !private ["PSs11CVarArgType", "toInt"]
+- ["PSs11CVarArgType", "updateDocument"]
+- ["PSs11CVarArgType", "updateMark"]
+- ["PSs11CVarArgType", "updatePage"]
+- ["PSs11CVarArgType", "writeFile"]
+- !private ["PSs11CVarArgType", "writeToFile"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "stringByAppendingPathComponent"]
+- !private ["PSs10Comparable", "toInt"]
+- !private ["PSs10Comparable", "writeToFile"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "toInt"]
+- !private ["PSs28CustomDebugStringConvertible", "writeToFile"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "NSSearchPathDirectory"]
+- !private ["PSs23CustomStringConvertible", "NSSearchPathDomainMask"]
+- !private ["PSs23CustomStringConvertible", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSs23CustomStringConvertible", "NSUTF8StringEncoding"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addObject"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "currentDocument"]
+- ["PSs23CustomStringConvertible", "currentPage"]
+- ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "destination"]
+- ["PSs23CustomStringConvertible", "documentIndex"]
+- ["PSs23CustomStringConvertible", "getDirection"]
+- ["PSs23CustomStringConvertible", "goBack"]
+- ["PSs23CustomStringConvertible", "goToPage"]
+- !private ["PSs23CustomStringConvertible", "indexForPage"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "loadDocuments"]
+- ["PSs23CustomStringConvertible", "nextDocument"]
+- ["PSs23CustomStringConvertible", "nextPage"]
+- !private ["PSs23CustomStringConvertible", "objectAtIndex"]
+- !private ["PSs23CustomStringConvertible", "pageAtIndex"]
+- !private ["PSs23CustomStringConvertible", "pageCount"]
+- ["PSs23CustomStringConvertible", "pageHistory"]
+- ["PSs23CustomStringConvertible", "pageIndex"]
+- ["PSs23CustomStringConvertible", "pdfArray"]
+- ["PSs23CustomStringConvertible", "prevDocument"]
+- ["PSs23CustomStringConvertible", "prevPage"]
+- ["PSs23CustomStringConvertible", "previousPage"]
+- ["PSs23CustomStringConvertible", "refArray"]
+- !private ["PSs23CustomStringConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "titleArray"]
+- !private ["PSs23CustomStringConvertible", "toInt"]
+- ["PSs23CustomStringConvertible", "updateDocument"]
+- ["PSs23CustomStringConvertible", "updateMark"]
+- ["PSs23CustomStringConvertible", "updatePage"]
+- ["PSs23CustomStringConvertible", "writeFile"]
+- !private ["PSs23CustomStringConvertible", "writeToFile"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "AllDomainsMask"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "DocumentDirectory"]
+- ["PSs9Equatable", "Element"]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSSearchPathDirectory"]
+- !private ["PSs9Equatable", "NSSearchPathDomainMask"]
+- !private ["PSs9Equatable", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSs9Equatable", "NSUTF8StringEncoding"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addObject"]
+- !private ["PSs9Equatable", "count"]
+- ["PSs9Equatable", "currentDocument"]
+- ["PSs9Equatable", "currentPage"]
+- ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "destination"]
+- ["PSs9Equatable", "documentIndex"]
+- ["PSs9Equatable", "getDirection"]
+- ["PSs9Equatable", "goBack"]
+- ["PSs9Equatable", "goToPage"]
+- !private ["PSs9Equatable", "indexForPage"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "loadDocuments"]
+- ["PSs9Equatable", "nextDocument"]
+- ["PSs9Equatable", "nextPage"]
+- !private ["PSs9Equatable", "objectAtIndex"]
+- !private ["PSs9Equatable", "pageAtIndex"]
+- !private ["PSs9Equatable", "pageCount"]
+- ["PSs9Equatable", "pageHistory"]
+- ["PSs9Equatable", "pageIndex"]
+- ["PSs9Equatable", "pdfArray"]
+- ["PSs9Equatable", "prevDocument"]
+- ["PSs9Equatable", "prevPage"]
+- ["PSs9Equatable", "previousPage"]
+- ["PSs9Equatable", "refArray"]
+- !private ["PSs9Equatable", "stringByAppendingPathComponent"]
+- ["PSs9Equatable", "titleArray"]
+- !private ["PSs9Equatable", "toInt"]
+- ["PSs9Equatable", "updateDocument"]
+- ["PSs9Equatable", "updateMark"]
+- ["PSs9Equatable", "updatePage"]
+- ["PSs9Equatable", "writeFile"]
+- !private ["PSs9Equatable", "writeToFile"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "toInt"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "writeToFile"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "DocumentDirectory"]
+- ["PSs8Hashable", "Element"]
+- !private ["PSs8Hashable", "Generator"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSSearchPathDirectory"]
+- !private ["PSs8Hashable", "NSSearchPathDomainMask"]
+- !private ["PSs8Hashable", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSs8Hashable", "NSUTF8StringEncoding"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addObject"]
+- !private ["PSs8Hashable", "count"]
+- ["PSs8Hashable", "currentDocument"]
+- ["PSs8Hashable", "currentPage"]
+- ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "destination"]
+- ["PSs8Hashable", "documentIndex"]
+- ["PSs8Hashable", "getDirection"]
+- ["PSs8Hashable", "goBack"]
+- ["PSs8Hashable", "goToPage"]
+- !private ["PSs8Hashable", "indexForPage"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "loadDocuments"]
+- ["PSs8Hashable", "nextDocument"]
+- ["PSs8Hashable", "nextPage"]
+- !private ["PSs8Hashable", "objectAtIndex"]
+- !private ["PSs8Hashable", "pageAtIndex"]
+- !private ["PSs8Hashable", "pageCount"]
+- ["PSs8Hashable", "pageHistory"]
+- ["PSs8Hashable", "pageIndex"]
+- ["PSs8Hashable", "pdfArray"]
+- ["PSs8Hashable", "prevDocument"]
+- ["PSs8Hashable", "prevPage"]
+- ["PSs8Hashable", "previousPage"]
+- ["PSs8Hashable", "refArray"]
+- !private ["PSs8Hashable", "stringByAppendingPathComponent"]
+- ["PSs8Hashable", "titleArray"]
+- !private ["PSs8Hashable", "toInt"]
+- ["PSs8Hashable", "updateDocument"]
+- ["PSs8Hashable", "updateMark"]
+- ["PSs8Hashable", "updatePage"]
+- ["PSs8Hashable", "writeFile"]
+- !private ["PSs8Hashable", "writeToFile"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["C11PDFMarkBook8MarkBook", "mark"]
+- !private ["C11PDFMarkBook8MarkBook", "url"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "stringByAppendingPathComponent"]
+- !private ["PSs14MirrorPathType", "toInt"]
+- !private ["PSs14MirrorPathType", "writeToFile"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- ["CSo7NSArray", "Element"]
+- !private ["CSo7NSArray", "Generator"]
+- !private ["CSo7NSArray", "addObject"]
+- !private ["CSo7NSArray", "count"]
+- !private ["CSo7NSArray", "objectAtIndex"]
+- ["PSo8NSCoding", "Element"]
+- !private ["PSo8NSCoding", "Generator"]
+- !private ["PSo8NSCoding", "addObject"]
+- !private ["PSo8NSCoding", "count"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "objectAtIndex"]
+- !private ["PSo8NSCoding", "stringByAppendingPathComponent"]
+- !private ["PSo8NSCoding", "toInt"]
+- !private ["PSo8NSCoding", "writeToFile"]
+- ["PSo9NSCopying", "Element"]
+- !private ["PSo9NSCopying", "Generator"]
+- !private ["PSo9NSCopying", "addObject"]
+- !private ["PSo9NSCopying", "count"]
+- !private ["PSo9NSCopying", "indexForPage"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "objectAtIndex"]
+- !private ["PSo9NSCopying", "pageAtIndex"]
+- !private ["PSo9NSCopying", "pageCount"]
+- !private ["PSo9NSCopying", "stringByAppendingPathComponent"]
+- !private ["PSo9NSCopying", "toInt"]
+- !private ["PSo9NSCopying", "writeToFile"]
+- ["PSo17NSFastEnumeration", "Element"]
+- !private ["PSo17NSFastEnumeration", "Generator"]
+- !private ["PSo17NSFastEnumeration", "addObject"]
+- !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "objectAtIndex"]
+- !private ["C10Foundation15NSFastGenerator", "Element"]
+- ["CSo14NSMutableArray", "Element"]
+- !private ["CSo14NSMutableArray", "Generator"]
+- !private ["CSo14NSMutableArray", "addObject"]
+- !private ["CSo14NSMutableArray", "count"]
+- !private ["CSo14NSMutableArray", "objectAtIndex"]
+- ["PSo16NSMutableCopying", "Element"]
+- !private ["PSo16NSMutableCopying", "Generator"]
+- !private ["PSo16NSMutableCopying", "addObject"]
+- !private ["PSo16NSMutableCopying", "count"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "objectAtIndex"]
+- !private ["PSo16NSMutableCopying", "stringByAppendingPathComponent"]
+- !private ["PSo16NSMutableCopying", "toInt"]
+- !private ["PSo16NSMutableCopying", "writeToFile"]
+- ["CSo8NSObject", "Element"]
+- !private ["CSo8NSObject", "Generator"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "MarkBook"]
+- ["CSo8NSObject", "NSMutableArray"]
+- !private ["CSo8NSObject", "NSSearchPathDirectory"]
+- !private ["CSo8NSObject", "NSSearchPathDomainMask"]
+- !private ["CSo8NSObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["CSo8NSObject", "NSUTF8StringEncoding"]
+- ["CSo8NSObject", "PDFDestination"]
+- ["CSo8NSObject", "PDFDocument"]
+- ["CSo8NSObject", "PDFModelDelegate"]
+- ["CSo8NSObject", "PDFPage"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "addObject"]
+- !private ["CSo8NSObject", "count"]
+- ["CSo8NSObject", "currentDocument"]
+- ["CSo8NSObject", "currentPage"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "destination"]
+- ["CSo8NSObject", "documentIndex"]
+- ["CSo8NSObject", "getDirection"]
+- ["CSo8NSObject", "goBack"]
+- ["CSo8NSObject", "goToPage"]
+- !private ["CSo8NSObject", "indexForPage"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loadDocuments"]
+- ["CSo8NSObject", "nextDocument"]
+- ["CSo8NSObject", "nextPage"]
+- !private ["CSo8NSObject", "objectAtIndex"]
+- !private ["CSo8NSObject", "pageAtIndex"]
+- !private ["CSo8NSObject", "pageCount"]
+- ["CSo8NSObject", "pageHistory"]
+- ["CSo8NSObject", "pageIndex"]
+- ["CSo8NSObject", "pdfArray"]
+- ["CSo8NSObject", "prevDocument"]
+- ["CSo8NSObject", "prevPage"]
+- ["CSo8NSObject", "previousPage"]
+- ["CSo8NSObject", "refArray"]
+- !private ["CSo8NSObject", "stringByAppendingPathComponent"]
+- ["CSo8NSObject", "titleArray"]
+- !private ["CSo8NSObject", "toInt"]
+- ["CSo8NSObject", "updateDocument"]
+- ["CSo8NSObject", "updateMark"]
+- ["CSo8NSObject", "updatePage"]
+- ["CSo8NSObject", "writeFile"]
+- !private ["CSo8NSObject", "writeToFile"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "Element"]
+- !private ["PSo16NSObjectProtocol", "Generator"]
+- !private ["PSo16NSObjectProtocol", "NSSearchPathDirectory"]
+- !private ["PSo16NSObjectProtocol", "NSSearchPathDomainMask"]
+- !private ["PSo16NSObjectProtocol", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo16NSObjectProtocol", "NSUTF8StringEncoding"]
+- !private ["PSo16NSObjectProtocol", "addObject"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- ["PSo16NSObjectProtocol", "currentDocument"]
+- ["PSo16NSObjectProtocol", "currentPage"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "destination"]
+- ["PSo16NSObjectProtocol", "documentIndex"]
+- ["PSo16NSObjectProtocol", "getDirection"]
+- ["PSo16NSObjectProtocol", "goBack"]
+- ["PSo16NSObjectProtocol", "goToPage"]
+- !private ["PSo16NSObjectProtocol", "indexForPage"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loadDocuments"]
+- ["PSo16NSObjectProtocol", "nextDocument"]
+- ["PSo16NSObjectProtocol", "nextPage"]
+- !private ["PSo16NSObjectProtocol", "objectAtIndex"]
+- !private ["PSo16NSObjectProtocol", "pageAtIndex"]
+- !private ["PSo16NSObjectProtocol", "pageCount"]
+- ["PSo16NSObjectProtocol", "pageHistory"]
+- ["PSo16NSObjectProtocol", "pageIndex"]
+- ["PSo16NSObjectProtocol", "pdfArray"]
+- ["PSo16NSObjectProtocol", "prevDocument"]
+- ["PSo16NSObjectProtocol", "prevPage"]
+- ["PSo16NSObjectProtocol", "previousPage"]
+- ["PSo16NSObjectProtocol", "refArray"]
+- !private ["PSo16NSObjectProtocol", "stringByAppendingPathComponent"]
+- ["PSo16NSObjectProtocol", "titleArray"]
+- !private ["PSo16NSObjectProtocol", "toInt"]
+- ["PSo16NSObjectProtocol", "updateDocument"]
+- ["PSo16NSObjectProtocol", "updateMark"]
+- ["PSo16NSObjectProtocol", "updatePage"]
+- ["PSo16NSObjectProtocol", "writeFile"]
+- !private ["PSo16NSObjectProtocol", "writeToFile"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardReading", "stringByAppendingPathComponent"]
+- !private ["PSo19NSPasteboardReading", "toInt"]
+- !private ["PSo19NSPasteboardReading", "writeToFile"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo19NSPasteboardWriting", "stringByAppendingPathComponent"]
+- !private ["PSo19NSPasteboardWriting", "toInt"]
+- !private ["PSo19NSPasteboardWriting", "writeToFile"]
+- !private ["OSC21NSSearchPathDirectory", "DocumentDirectory"]
+- !private ["VSC22NSSearchPathDomainMask", "AllDomainsMask"]
+- ["PSo14NSSecureCoding", "Element"]
+- !private ["PSo14NSSecureCoding", "Generator"]
+- !private ["PSo14NSSecureCoding", "addObject"]
+- !private ["PSo14NSSecureCoding", "count"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "objectAtIndex"]
+- !private ["PSo14NSSecureCoding", "stringByAppendingPathComponent"]
+- !private ["PSo14NSSecureCoding", "toInt"]
+- !private ["PSo14NSSecureCoding", "writeToFile"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "stringByAppendingPathComponent"]
+- !private ["CSo8NSString", "toInt"]
+- !private ["CSo8NSString", "writeToFile"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "AllDomainsMask"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "stringByAppendingPathComponent"]
+- !private ["PSs16OutputStreamType", "toInt"]
+- !private ["PSs16OutputStreamType", "writeToFile"]
+- !private ["CSo11PDFDocument", "indexForPage"]
+- !private ["CSo11PDFDocument", "pageAtIndex"]
+- !private ["CSo11PDFDocument", "pageCount"]
+- ["C11PDFMarkBook8PDFModel", "Int"]
+- !private ["C11PDFMarkBook8PDFModel", "MarkBook"]
+- ["C11PDFMarkBook8PDFModel", "NSMutableArray"]
+- !private ["C11PDFMarkBook8PDFModel", "NSSearchPathDirectory"]
+- !private ["C11PDFMarkBook8PDFModel", "NSSearchPathDomainMask"]
+- !private ["C11PDFMarkBook8PDFModel", "NSSearchPathForDirectoriesInDomains"]
+- !private ["C11PDFMarkBook8PDFModel", "NSUTF8StringEncoding"]
+- ["C11PDFMarkBook8PDFModel", "PDFDestination"]
+- ["C11PDFMarkBook8PDFModel", "PDFDocument"]
+- ["C11PDFMarkBook8PDFModel", "PDFModelDelegate"]
+- ["C11PDFMarkBook8PDFModel", "PDFPage"]
+- ["C11PDFMarkBook8PDFModel", "String"]
+- ["C11PDFMarkBook8PDFModel", "currentDocument"]
+- ["C11PDFMarkBook8PDFModel", "currentPage"]
+- ["C11PDFMarkBook8PDFModel", "deinit"]
+- ["C11PDFMarkBook8PDFModel", "delegate"]
+- ["C11PDFMarkBook8PDFModel", "destination"]
+- ["C11PDFMarkBook8PDFModel", "documentIndex"]
+- ["C11PDFMarkBook8PDFModel", "getDirection"]
+- ["C11PDFMarkBook8PDFModel", "goBack"]
+- ["C11PDFMarkBook8PDFModel", "goToPage"]
+- ["C11PDFMarkBook8PDFModel", "init"]
+- ["C11PDFMarkBook8PDFModel", "loadDocuments"]
+- ["C11PDFMarkBook8PDFModel", "nextDocument"]
+- ["C11PDFMarkBook8PDFModel", "nextPage"]
+- ["C11PDFMarkBook8PDFModel", "pageHistory"]
+- ["C11PDFMarkBook8PDFModel", "pageIndex"]
+- ["C11PDFMarkBook8PDFModel", "pdfArray"]
+- ["C11PDFMarkBook8PDFModel", "prevDocument"]
+- ["C11PDFMarkBook8PDFModel", "prevPage"]
+- ["C11PDFMarkBook8PDFModel", "previousPage"]
+- ["C11PDFMarkBook8PDFModel", "refArray"]
+- ["C11PDFMarkBook8PDFModel", "titleArray"]
+- ["C11PDFMarkBook8PDFModel", "updateDocument"]
+- ["C11PDFMarkBook8PDFModel", "updateMark"]
+- ["C11PDFMarkBook8PDFModel", "updatePage"]
+- ["C11PDFMarkBook8PDFModel", "writeFile"]
+- ["P11PDFMarkBook16PDFModelDelegate", "Int"]
+- ["P11PDFMarkBook16PDFModelDelegate", "PDFDocument"]
+- ["P11PDFMarkBook16PDFModelDelegate", "PDFPage"]
+- ["P11PDFMarkBook16PDFModelDelegate", "documentDidChange"]
+- ["P11PDFMarkBook16PDFModelDelegate", "documentsFinishedLoading"]
+- ["P11PDFMarkBook16PDFModelDelegate", "pageDidChange"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- !private ["PSs16RawRepresentable", "AllDomainsMask"]
+- !private ["PSs16RawRepresentable", "DocumentDirectory"]
+- ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "addObject"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "objectAtIndex"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs14SetAlgebraType", "AllDomainsMask"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "stringByAppendingPathComponent"]
+- !private ["PSs10Streamable", "toInt"]
+- !private ["PSs10Streamable", "writeToFile"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["SS", "stringByAppendingPathComponent"]
+- !private ["SS", "toInt"]
+- !private ["SS", "writeToFile"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs30StringInterpolationConvertible", "toInt"]
+- !private ["PSs30StringInterpolationConvertible", "writeToFile"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs24StringLiteralConvertible", "toInt"]
+- !private ["PSs24StringLiteralConvertible", "writeToFile"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "toInt"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "writeToFile"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "toInt"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "writeToFile"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "toInt"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "writeToFile"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "toInt"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "writeToFile"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "toInt"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "writeToFile"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "stringByAppendingPathComponent"]
+- !private ["PSs16_CocoaStringType", "toInt"]
+- !private ["PSs16_CocoaStringType", "writeToFile"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "stringByAppendingPathComponent"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs21_ObjectiveCBridgeable", "toInt"]
+- !private ["PSs21_ObjectiveCBridgeable", "writeToFile"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "addObject"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "objectAtIndex"]
+- !private ["PSs12_Reflectable", "stringByAppendingPathComponent"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "toInt"]
+- !private ["PSs12_Reflectable", "writeToFile"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "C11PDFMarkBook8MarkBook"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "CSo7NSArray"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo17NSFastEnumeration"
+- !private "C10Foundation15NSFastGenerator"
+- "CSo14NSMutableArray"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "OSC21NSSearchPathDirectory"
+- !private "VSC22NSSearchPathDomainMask"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "CSo11PDFDocument"
+- "C11PDFMarkBook8PDFModel"
+- "P11PDFMarkBook16PDFModelDelegate"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+interface-hash: "a387961eea2a90b6ba57a9815f16dc81"
